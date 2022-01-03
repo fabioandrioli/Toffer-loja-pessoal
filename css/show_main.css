@@ -77,7 +77,7 @@ main{
 }
 
 .text__price span{
-    font-size:10px;
+    font-size:15px;
     position:relative;
     top:-15px;
 }
@@ -155,4 +155,36 @@ main{
 .observacao_text{
     margin-top: 20px;
     font-size: 18px!important;
+}
+
+.forma_de_pagamento{
+    width: 600px;
+}
+
+.card-action .forma_de_pagamento{
+    width: 100%;
+}
+
+.perguntas{
+    margin-top: 30px;
+    width: 100%;
+}
+
+hr{
+    border: 1px solid;
+}
+
+.especificacoes{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.especificacoes h3{
+    margin-right: auto;
+    width: 100%;
+}
+
+.table td, .table th {
+    font-size:24px;
 }
