@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+       
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/site_header.css">
+        <link rel="stylesheet" href="css/show_main.css">
+        <link rel="stylesheet" href="css/site_footer.css">
+        <link rel="stylesheet" href="css/resets.css">
+        <title>show product</title>
+    </head>
+
+    <body>
+        <nav class="menu"> 
+            <div class="menu__mobile">
+                <h1><a class="mobile__logo" href="#">TOFFER</a></h1>
+                <a class="mobile__button" href="#"><i class="fas fa-bars fa-2x"></i></a>
+            </div>
+            <div class="menu__container mobile-active">
+                <h1><a class="menu__logo" href="#">TOFFER</a></h1>
+
+                <ul>
+                    <li><p  class="menu__item">Olá, Seja bem vindo!</p></li>
+                </ul>
+                <form class="menu__search">
+                    <input class="menu__input" type="text" placeholder="Buscar produto"/>
+                    <button type="button" class="menu__button"><i class="fas fa-search"></i></button>
+                </form>
+                <ul>
+                    <li> <a class="menu__item cart" href="#"><i class="fas fa-shopping-cart fa-2x"></i></li>
+                    <li> <a class="menu__item cart" href="#"><p>(0)<br>carrinho</p></a></li>
+                </ul>
+                <ul class="menu__access">
+                    <li> <i style="color:white" class="icone_login fas fa-user fa-2x"></i></li>
+                    <li> <a class="menu__item" href="#">Login</a></li>
+                    <li> <a class="menu__item piper">|</a></li>
+                    <li> <a class="menu__item" href="#">inscrever - se</a></li>
+                </ul>
+            </div>
+        </nav><!-- Navbar - menu-->
+
+        <main>
+            <div class="container-show">
+                <section class="container-product-description">
+                    <div class="galeria">
+                        <img class="card-image" src="./image/produto/relogio_3.jpg" alt="">
+                       <div class="sub__card">
+                           <a href="#"><img class="sub-card-image" src="./image/produto/relogio_3.jpg" alt=""></a> 
+                           <a href="#"><img class="sub-card-image" src="./image/produto/relogio_3.jpg" alt=""></a>
+                           <a href="#"><img class="sub-card-image" src="./image/produto/relogio_3.jpg" alt=""></a>
+                       </div>
+                       <h4 class="observacao">* Informação importante</h4>
+                       <h5 class="observacao" style="color:#ff0000;font-weight: 500;">Este relógio não é a prova de aguá</h5>
+                    </div>
+                    <div class="description">
+                        <h1 class="description__title">Marca: Lige</h1>
+                        <p class="description__text">
+                            Lige 2021 novo relógio inteligente 
+                            masculino tela de toque completa 
+                            esporte fitness relógio ip67 
+                            à prova dip67 água bluetooth para android
+                             ios smartwatch masculino + caixa
+                        </p>
+                        <hr>
+                        <h4 class="text__price">
+                            <span>R$</span> 
+                            131 
+                            <span>00</span>
+                            <span class="promo">R$ 820,10</span>
+                        </h4>
+                        <div class="card-desconto">
+                            <p>30% desconto</p>
+                        </div>
+                        <hr>
+                        <h4>Frete grátis</h4>
+                        <fieldset>
+                            <legend>Formas de pagamento</legend>
+                        </fieldset>
+
+                       
+                    </div>
+                    <div class="card-action">
+                        <h4 class="text__price">
+                            <span>R$</span> 
+                            131 
+                            <span>00</span>
+                            <span class="promo">R$ 820,10</span>
+                        </h4>
+                        <h4>Entrega em até 3 horas</h4>
+                        <div class="buttons">
+                            <a href="#" class="add__cart">Adicionar ao carrinho</a>
+                            <a href="#" class="buy__now">Comprar agora</a>
+                        </div>
+                        <h4 class="text_frete">Frete grátis</h4>
+                        <h4 class="observacao_text">**Entrega apenas no litoral</h4>
+                    </div>
+                    
+                </section>
+            </div>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="js/menu.js"></script>
+    </body>
